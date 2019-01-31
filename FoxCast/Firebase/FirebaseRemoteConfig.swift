@@ -1,5 +1,5 @@
 //
-//  RemoteConfig.swift
+//  FirebaseRemoteConfig.swift
 //  FoxCast
 //
 //  Created by Vaibhav Parmar on 31/01/19.
@@ -31,13 +31,15 @@ class FirebaseRemoteConfig {
     var isFetchComplete: Bool = false
     var loadingDoneHandler: (() -> ())?
     
-    private init() {
+    func configure() {
         if FirebaseApp.app() == nil {
             FirebaseApp.configure()
         }
         self.loadDefaultValues()
         self.fetchRemoteValues()
     }
+    
+    private init() {}
     
     func loadDefaultValues() {
         let appDefaults: [String: NSObject] = [
