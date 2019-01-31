@@ -1,0 +1,6 @@
+framework module Pods_FoxCast {
+  umbrella header "Pods-FoxCast-umbrella.h"
+
+  export *
+  module * { export * }
+}
