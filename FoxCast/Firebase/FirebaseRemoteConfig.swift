@@ -11,16 +11,12 @@ import Firebase
 import FirebaseRemoteConfig
 
 enum FirebaseRemoteKey: String {
-    case showCallNowButton
-    case showRatingCircleView
-    
-    
     case loginOption
 }
 
 enum LoginOption: String {
-    case facebook
     case google
+    case linkedin
 }
 
 class FirebaseRemoteConfig {
@@ -43,7 +39,7 @@ class FirebaseRemoteConfig {
     
     func loadDefaultValues() {
         let appDefaults: [String: NSObject] = [
-            FirebaseRemoteKey.loginOption.rawValue: LoginOption.google.rawValue as NSObject
+            FirebaseRemoteKey.loginOption.rawValue: LoginOption.linkedin.rawValue as NSObject
         ]
         RemoteConfig.remoteConfig().setDefaults(appDefaults)
     }
@@ -54,6 +50,8 @@ class FirebaseRemoteConfig {
         RemoteConfig.remoteConfig().fetch(withExpirationDuration: fetchDuration) { (status, error) in
             guard error == nil else {
                 print("Oops! Got an error fetching remote values \(error!)")
+                self.isFetchComplete = true
+                self.loadingDoneHandler?()
                 return
             }
             
@@ -74,7 +72,7 @@ class FirebaseRemoteConfig {
     }
     
     func stringValue(forKey key: FirebaseRemoteKey) -> String {
-        return RemoteConfig.remoteConfig()[key.rawValue].stringValue ?? LoginOption.google.rawValue
+        return RemoteConfig.remoteConfig()[key.rawValue].stringValue ?? LoginOption.linkedin.rawValue
     }
     
 }
