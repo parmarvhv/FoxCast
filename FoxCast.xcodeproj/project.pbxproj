@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DC9D21532AF5B58A8FB7B12 /* Pods_FoxCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BFDA6DA3E19656158CB6AD /* Pods_FoxCast.framework */; };
 		809C3BB42202BEF600FF7D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BB32202BEF600FF7D07 /* AppDelegate.swift */; };
 		809C3BB62202BEF600FF7D07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BB52202BEF600FF7D07 /* ViewController.swift */; };
 		809C3BB92202BEF600FF7D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809C3BB72202BEF600FF7D07 /* Main.storyboard */; };
 		809C3BBB2202BEF800FF7D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809C3BBA2202BEF800FF7D07 /* Assets.xcassets */; };
 		809C3BBE2202BEF800FF7D07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809C3BBC2202BEF800FF7D07 /* LaunchScreen.storyboard */; };
+		809C3BC62202C0D100FF7D07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 809C3BC52202C0D100FF7D07 /* GoogleService-Info.plist */; };
+		809C3BC82202C14300FF7D07 /* FIrebaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BC72202C14300FF7D07 /* FIrebaseConfig.swift */; };
+		809C3BCB2202C1FE00FF7D07 /* RemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BCA2202C1FE00FF7D07 /* RemoteConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46BFDA6DA3E19656158CB6AD /* Pods_FoxCast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoxCast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F08D807382C706857D5E2AF /* Pods-FoxCast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoxCast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoxCast/Pods-FoxCast.debug.xcconfig"; sourceTree = "<group>"; };
+		7B7EED66034CCFC6FEE184FA /* Pods-FoxCast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoxCast.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoxCast/Pods-FoxCast.release.xcconfig"; sourceTree = "<group>"; };
 		809C3BB02202BEF600FF7D07 /* FoxCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809C3BB32202BEF600FF7D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		809C3BB52202BEF600FF7D07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		809C3BBA2202BEF800FF7D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		809C3BBD2202BEF800FF7D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		809C3BBF2202BEF800FF7D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		809C3BC52202C0D100FF7D07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		809C3BC72202C14300FF7D07 /* FIrebaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIrebaseConfig.swift; sourceTree = "<group>"; };
+		809C3BCA2202C1FE00FF7D07 /* RemoteConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC9D21532AF5B58A8FB7B12 /* Pods_FoxCast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3238137F6938B2407A55035A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46BFDA6DA3E19656158CB6AD /* Pods_FoxCast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		809C3BA72202BEF600FF7D07 = {
 			isa = PBXGroup;
 			children = (
 				809C3BB22202BEF600FF7D07 /* FoxCast */,
 				809C3BB12202BEF600FF7D07 /* Products */,
+				95F7A47B29CB91995E8B257A /* Pods */,
+				3238137F6938B2407A55035A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,9 +80,29 @@
 				809C3BB72202BEF600FF7D07 /* Main.storyboard */,
 				809C3BBA2202BEF800FF7D07 /* Assets.xcassets */,
 				809C3BBC2202BEF800FF7D07 /* LaunchScreen.storyboard */,
+				809C3BC52202C0D100FF7D07 /* GoogleService-Info.plist */,
 				809C3BBF2202BEF800FF7D07 /* Info.plist */,
+				809C3BC92202C1EF00FF7D07 /* Firebase */,
 			);
 			path = FoxCast;
+			sourceTree = "<group>";
+		};
+		809C3BC92202C1EF00FF7D07 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				809C3BCA2202C1FE00FF7D07 /* RemoteConfig.swift */,
+				809C3BC72202C14300FF7D07 /* FIrebaseConfig.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		95F7A47B29CB91995E8B257A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F08D807382C706857D5E2AF /* Pods-FoxCast.debug.xcconfig */,
+				7B7EED66034CCFC6FEE184FA /* Pods-FoxCast.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 809C3BC22202BEF800FF7D07 /* Build configuration list for PBXNativeTarget "FoxCast" */;
 			buildPhases = (
+				14937348527DFB702A9A501C /* [CP] Check Pods Manifest.lock */,
 				809C3BAC2202BEF600FF7D07 /* Sources */,
 				809C3BAD2202BEF600FF7D07 /* Frameworks */,
 				809C3BAE2202BEF600FF7D07 /* Resources */,
+				93F0D1E481B87DFBD310C357 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				809C3BBE2202BEF800FF7D07 /* LaunchScreen.storyboard in Resources */,
+				809C3BC62202C0D100FF7D07 /* GoogleService-Info.plist in Resources */,
 				809C3BBB2202BEF800FF7D07 /* Assets.xcassets in Resources */,
 				809C3BB92202BEF600FF7D07 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +174,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14937348527DFB702A9A501C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoxCast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93F0D1E481B87DFBD310C357 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoxCast/Pods-FoxCast-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoxCast/Pods-FoxCast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		809C3BAC2202BEF600FF7D07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809C3BC82202C14300FF7D07 /* FIrebaseConfig.swift in Sources */,
 				809C3BB62202BEF600FF7D07 /* ViewController.swift in Sources */,
 				809C3BB42202BEF600FF7D07 /* AppDelegate.swift in Sources */,
+				809C3BCB2202C1FE00FF7D07 /* RemoteConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +377,7 @@
 		};
 		809C3BC32202BEF800FF7D07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F08D807382C706857D5E2AF /* Pods-FoxCast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +396,7 @@
 		};
 		809C3BC42202BEF800FF7D07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7EED66034CCFC6FEE184FA /* Pods-FoxCast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
