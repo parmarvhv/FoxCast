@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		7DC9D21532AF5B58A8FB7B12 /* Pods_FoxCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BFDA6DA3E19656158CB6AD /* Pods_FoxCast.framework */; };
 		809C3BB42202BEF600FF7D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BB32202BEF600FF7D07 /* AppDelegate.swift */; };
-		809C3BB62202BEF600FF7D07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BB52202BEF600FF7D07 /* ViewController.swift */; };
+		809C3BB62202BEF600FF7D07 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BB52202BEF600FF7D07 /* LoginViewController.swift */; };
 		809C3BB92202BEF600FF7D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809C3BB72202BEF600FF7D07 /* Main.storyboard */; };
 		809C3BBB2202BEF800FF7D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809C3BBA2202BEF800FF7D07 /* Assets.xcassets */; };
 		809C3BBE2202BEF800FF7D07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809C3BBC2202BEF800FF7D07 /* LaunchScreen.storyboard */; };
 		809C3BC62202C0D100FF7D07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 809C3BC52202C0D100FF7D07 /* GoogleService-Info.plist */; };
 		809C3BCB2202C1FE00FF7D07 /* FirebaseRemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BCA2202C1FE00FF7D07 /* FirebaseRemoteConfig.swift */; };
+		809C3BCF2202F9E300FF7D07 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BCE2202F9E300FF7D07 /* Constants.swift */; };
+		809C3BD12202FDAC00FF7D07 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BD02202FDAC00FF7D07 /* LoadingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +25,15 @@
 		7B7EED66034CCFC6FEE184FA /* Pods-FoxCast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoxCast.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoxCast/Pods-FoxCast.release.xcconfig"; sourceTree = "<group>"; };
 		809C3BB02202BEF600FF7D07 /* FoxCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809C3BB32202BEF600FF7D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		809C3BB52202BEF600FF7D07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		809C3BB52202BEF600FF7D07 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		809C3BB82202BEF600FF7D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		809C3BBA2202BEF800FF7D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		809C3BBD2202BEF800FF7D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		809C3BBF2202BEF800FF7D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		809C3BC52202C0D100FF7D07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		809C3BCA2202C1FE00FF7D07 /* FirebaseRemoteConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRemoteConfig.swift; sourceTree = "<group>"; };
+		809C3BCE2202F9E300FF7D07 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		809C3BD02202FDAC00FF7D07 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				809C3BB32202BEF600FF7D07 /* AppDelegate.swift */,
-				809C3BB52202BEF600FF7D07 /* ViewController.swift */,
+				809C3BCE2202F9E300FF7D07 /* Constants.swift */,
+				809C3BB52202BEF600FF7D07 /* LoginViewController.swift */,
+				809C3BD02202FDAC00FF7D07 /* LoadingViewController.swift */,
 				809C3BB72202BEF600FF7D07 /* Main.storyboard */,
 				809C3BBA2202BEF800FF7D07 /* Assets.xcassets */,
 				809C3BBC2202BEF800FF7D07 /* LaunchScreen.storyboard */,
@@ -227,9 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				809C3BB62202BEF600FF7D07 /* ViewController.swift in Sources */,
+				809C3BB62202BEF600FF7D07 /* LoginViewController.swift in Sources */,
 				809C3BB42202BEF600FF7D07 /* AppDelegate.swift in Sources */,
+				809C3BD12202FDAC00FF7D07 /* LoadingViewController.swift in Sources */,
 				809C3BCB2202C1FE00FF7D07 /* FirebaseRemoteConfig.swift in Sources */,
+				809C3BCF2202F9E300FF7D07 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

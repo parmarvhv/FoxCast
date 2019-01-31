@@ -29,7 +29,7 @@ class FirebaseRemoteConfig {
     
     //TODO: Yet to implement in Splash Screen
     var isFetchComplete: Bool = false
-    var loadingDoneHandler: (() -> ())?
+    var loadingDoneHandler: (() -> Void)?
     
     func configure() {
         if FirebaseApp.app() == nil {
@@ -43,7 +43,7 @@ class FirebaseRemoteConfig {
     
     func loadDefaultValues() {
         let appDefaults: [String: NSObject] = [
-            FirebaseRemoteKey.loginOption.rawValue: LoginOption.facebook.rawValue as NSObject
+            FirebaseRemoteKey.loginOption.rawValue: LoginOption.google.rawValue as NSObject
         ]
         RemoteConfig.remoteConfig().setDefaults(appDefaults)
     }
@@ -74,7 +74,7 @@ class FirebaseRemoteConfig {
     }
     
     func stringValue(forKey key: FirebaseRemoteKey) -> String {
-        return RemoteConfig.remoteConfig()[key.rawValue].stringValue ?? LoginOption.facebook.rawValue
+        return RemoteConfig.remoteConfig()[key.rawValue].stringValue ?? LoginOption.google.rawValue
     }
     
 }
