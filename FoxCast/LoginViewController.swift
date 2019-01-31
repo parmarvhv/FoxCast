@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginViewController: UIViewController {
 
@@ -26,6 +27,11 @@ class LoginViewController: UIViewController {
         let text = FirebaseRemoteConfig.shared.stringValue(forKey: .loginOption)
         let loginText = "Login with \(text.capitalized)"
         self.loginButton.setTitle(loginText, for: .normal)
+    }
+    
+    @IBAction func handleLoginButtonTapped(_ sender: UIButton) {
+        let text = FirebaseRemoteConfig.shared.stringValue(forKey: .loginOption)
+        Analytics.logEvent("loginTapped", parameters: ["Text": text])
     }
 
 }
