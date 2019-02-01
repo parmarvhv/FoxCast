@@ -17,6 +17,11 @@
 		807BAE662203E36B000FA3D5 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BAE652203E36B000FA3D5 /* SectionModel.swift */; };
 		807BAE682203E82B000FA3D5 /* UICollectionView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BAE672203E82B000FA3D5 /* UICollectionView+Helper.swift */; };
 		807BAE6A22040FA2000FA3D5 /* UIImageView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BAE6922040FA2000FA3D5 /* UIImageView+Helper.swift */; };
+		807BAE7E22041949000FA3D5 /* jon_feed.gif in Resources */ = {isa = PBXBuildFile; fileRef = 807BAE7A22041949000FA3D5 /* jon_feed.gif */; };
+		807BAE7F22041949000FA3D5 /* tyrion_feed.gif in Resources */ = {isa = PBXBuildFile; fileRef = 807BAE7B22041949000FA3D5 /* tyrion_feed.gif */; };
+		807BAE8022041949000FA3D5 /* bran_feed.gif in Resources */ = {isa = PBXBuildFile; fileRef = 807BAE7C22041949000FA3D5 /* bran_feed.gif */; };
+		807BAE8122041949000FA3D5 /* daenerys_feed.gif in Resources */ = {isa = PBXBuildFile; fileRef = 807BAE7D22041949000FA3D5 /* daenerys_feed.gif */; };
+		807BAE8322041961000FA3D5 /* arya_littlefinger.gif in Resources */ = {isa = PBXBuildFile; fileRef = 807BAE8222041961000FA3D5 /* arya_littlefinger.gif */; };
 		809C3BB42202BEF600FF7D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BB32202BEF600FF7D07 /* AppDelegate.swift */; };
 		809C3BB62202BEF600FF7D07 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BB52202BEF600FF7D07 /* LoginViewController.swift */; };
 		809C3BB92202BEF600FF7D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809C3BB72202BEF600FF7D07 /* Main.storyboard */; };
@@ -43,6 +48,11 @@
 		807BAE652203E36B000FA3D5 /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
 		807BAE672203E82B000FA3D5 /* UICollectionView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Helper.swift"; sourceTree = "<group>"; };
 		807BAE6922040FA2000FA3D5 /* UIImageView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Helper.swift"; sourceTree = "<group>"; };
+		807BAE7A22041949000FA3D5 /* jon_feed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jon_feed.gif; sourceTree = "<group>"; };
+		807BAE7B22041949000FA3D5 /* tyrion_feed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tyrion_feed.gif; sourceTree = "<group>"; };
+		807BAE7C22041949000FA3D5 /* bran_feed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bran_feed.gif; sourceTree = "<group>"; };
+		807BAE7D22041949000FA3D5 /* daenerys_feed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = daenerys_feed.gif; sourceTree = "<group>"; };
+		807BAE8222041961000FA3D5 /* arya_littlefinger.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = arya_littlefinger.gif; sourceTree = "<group>"; };
 		809C3BB02202BEF600FF7D07 /* FoxCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809C3BB32202BEF600FF7D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		809C3BB52202BEF600FF7D07 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +106,32 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		807BAE6B220411EF000FA3D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				807BAE8222041961000FA3D5 /* arya_littlefinger.gif */,
+				807BAE7C22041949000FA3D5 /* bran_feed.gif */,
+				807BAE7D22041949000FA3D5 /* daenerys_feed.gif */,
+				807BAE7A22041949000FA3D5 /* jon_feed.gif */,
+				807BAE7B22041949000FA3D5 /* tyrion_feed.gif */,
+				809C3BB72202BEF600FF7D07 /* Main.storyboard */,
+				809C3BBA2202BEF800FF7D07 /* Assets.xcassets */,
+				809C3BBC2202BEF800FF7D07 /* LaunchScreen.storyboard */,
+				809C3BC52202C0D100FF7D07 /* GoogleService-Info.plist */,
+				809C3BBF2202BEF800FF7D07 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		807BAE6C2204120B000FA3D5 /* AppSupport */ = {
+			isa = PBXGroup;
+			children = (
+				809C3BB32202BEF600FF7D07 /* AppDelegate.swift */,
+				809C3BCE2202F9E300FF7D07 /* Constants.swift */,
+			);
+			path = AppSupport;
+			sourceTree = "<group>";
+		};
 		809C3BA72202BEF600FF7D07 = {
 			isa = PBXGroup;
 			children = (
@@ -117,17 +153,12 @@
 		809C3BB22202BEF600FF7D07 /* FoxCast */ = {
 			isa = PBXGroup;
 			children = (
+				807BAE6C2204120B000FA3D5 /* AppSupport */,
 				809C3BD922034E6C00FF7D07 /* Helpers */,
 				809C3BD322034A8200FF7D07 /* Views */,
 				807BAE622203E2EC000FA3D5 /* ViewModel */,
 				807BAE5D22035282000FA3D5 /* Controllers */,
-				809C3BB32202BEF600FF7D07 /* AppDelegate.swift */,
-				809C3BCE2202F9E300FF7D07 /* Constants.swift */,
-				809C3BB72202BEF600FF7D07 /* Main.storyboard */,
-				809C3BBA2202BEF800FF7D07 /* Assets.xcassets */,
-				809C3BBC2202BEF800FF7D07 /* LaunchScreen.storyboard */,
-				809C3BC52202C0D100FF7D07 /* GoogleService-Info.plist */,
-				809C3BBF2202BEF800FF7D07 /* Info.plist */,
+				807BAE6B220411EF000FA3D5 /* Resources */,
 				809C3BC92202C1EF00FF7D07 /* Firebase */,
 			);
 			path = FoxCast;
@@ -234,10 +265,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				809C3BBE2202BEF800FF7D07 /* LaunchScreen.storyboard in Resources */,
+				807BAE7E22041949000FA3D5 /* jon_feed.gif in Resources */,
+				807BAE8022041949000FA3D5 /* bran_feed.gif in Resources */,
 				807BAE582203515E000FA3D5 /* GridCollectionCell.xib in Resources */,
+				807BAE7F22041949000FA3D5 /* tyrion_feed.gif in Resources */,
 				809C3BD722034A9D00FF7D07 /* ListCollectionCell.xib in Resources */,
 				809C3BC62202C0D100FF7D07 /* GoogleService-Info.plist in Resources */,
+				807BAE8122041949000FA3D5 /* daenerys_feed.gif in Resources */,
 				809C3BBB2202BEF800FF7D07 /* Assets.xcassets in Resources */,
+				807BAE8322041961000FA3D5 /* arya_littlefinger.gif in Resources */,
 				809C3BB92202BEF600FF7D07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,7 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = STRYF8536N;
-				INFOPLIST_FILE = FoxCast/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FoxCast/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,7 +519,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = STRYF8536N;
-				INFOPLIST_FILE = FoxCast/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FoxCast/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

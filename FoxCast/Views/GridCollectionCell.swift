@@ -12,7 +12,7 @@ class GridCollectionCell: CollectionViewCell {
 
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var titleLabel: UILabel!
-    @IBOutlet var feedImageView: UIImageView!
+    @IBOutlet var feedImageView: ImageView!
     @IBOutlet var thumbnailView: UIImageView!
 
     override func awakeFromNib() {
@@ -23,7 +23,7 @@ class GridCollectionCell: CollectionViewCell {
         guard let model = item as? CollectionCellModel else { return }
         self.nameLabel.text = model.name
         self.titleLabel.text = model.title
-        self.feedImageView.image = UIImage(named: model.image)
+        self.feedImageView.loadGif(model.image)
         self.thumbnailView.image = UIImage(named: model.profileImage)
     }
 }

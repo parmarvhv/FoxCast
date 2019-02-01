@@ -46,7 +46,7 @@
                                 <color key="textColor" red="0.25913292169570923" green="0.27431553602218628" blue="0.29412335157394409" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IYk-ei-X6j">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IYk-ei-X6j" customClass="ImageView" customModule="FoxCast" customModuleProvider="target">
                                 <rect key="frame" x="8" y="56" width="326" height="101"/>
                             </imageView>
                         </subviews>
@@ -79,7 +79,7 @@
                 </userDefinedRuntimeAttribute>
             </userDefinedRuntimeAttributes>
             <connections>
-                <outlet property="feedImageView" destination="IYk-ei-X6j" id="rHW-e6-588"/>
+                <outlet property="feedImageView" destination="IYk-ei-X6j" id="7sX-hD-ZMC"/>
                 <outlet property="nameLabel" destination="2Q4-Ni-HhP" id="TEH-eJ-dFH"/>
                 <outlet property="thumbnailView" destination="II1-mo-ar7" id="7Rz-0U-jxP"/>
                 <outlet property="titleLabel" destination="EEO-02-djk" id="x3B-v4-cYj"/>

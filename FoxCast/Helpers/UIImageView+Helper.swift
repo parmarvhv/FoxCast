@@ -8,12 +8,13 @@
 
 import Foundation
 import UIKit
+import Kingfisher
 
 
 public class ImageView: UIImageView {
     
     //let activity = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorView.Style.whiteLarge)
-    let activity = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
+    let activity = UIActivityIndicatorView(style: .whiteLarge)
     
     public override func awakeFromNib() {
         super.awakeFromNib()
@@ -57,7 +58,7 @@ public class ImageView: UIImageView {
                          completionHandler: { image, error, cacheType, imageURL in
         })
     }
-    
+
     private func startLoader() {
         activity.isHidden = false
         activity.startAnimating()
