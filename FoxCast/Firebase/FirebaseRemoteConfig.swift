@@ -24,7 +24,6 @@ class FirebaseRemoteConfig {
     
     public static let shared = FirebaseRemoteConfig()
     
-    //TODO: Yet to implement in Splash Screen
     var isFetchComplete: Bool = false
     var loadingDoneHandler: (() -> Void)?
     
@@ -35,8 +34,8 @@ class FirebaseRemoteConfig {
         self.loadDefaultValues()
         self.fetchRemoteValues()
         
-        let idToken = InstanceID.instanceID().token()
-        print ("Your instance ID token is \(idToken ?? "n/a")")
+//        let idToken = InstanceID.instanceID().token()
+//        print ("Your instance ID token is \(idToken ?? "n/a")")
     }
     
     private init() {}
@@ -49,6 +48,7 @@ class FirebaseRemoteConfig {
     }
     
     func fetchRemoteValues() {
+        //Remote Config caches values for around 12hrs. To fetch remote values instantly
         let fetchDuration: TimeInterval = 0
         self.activateDebugMode()
         RemoteConfig.remoteConfig().fetch(withExpirationDuration: fetchDuration) { (status, error) in
@@ -65,7 +65,8 @@ class FirebaseRemoteConfig {
         }
     }
     
-    //TODO: Will remove debug mode after A/B Test Experiment
+    //TODO: remove after experimenting A/B
+    //Remote Config has client side throttle. By enabling developer mode, byepass throttle.
     func activateDebugMode() {
         let debugSettings = RemoteConfigSettings(developerModeEnabled: true)
         RemoteConfig.remoteConfig().configSettings = debugSettings

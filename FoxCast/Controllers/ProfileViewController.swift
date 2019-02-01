@@ -19,7 +19,6 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initialSetup()
-        
     }
     
     private func initialSetup() {

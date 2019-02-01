@@ -43,7 +43,7 @@ class ProfileViewModel {
     var feeds = [
         Feed(name: "Night King", title: "First White Walker",
              feedImage: "night_feed", profileImage: "night_king"),
-        Feed(name: "Jon Snow", title: "Stark now targaryen",
+        Feed(name: "Jon Snow", title: "Knower of Nothing",
              feedImage: "jon_feed", profileImage: "jon_snow"),
         Feed(name: "Daenerys Targaryen", title: "Mother of Dragons",
              feedImage: "daenerys_feed", profileImage: "daenerys"),
