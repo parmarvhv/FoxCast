@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		7DC9D21532AF5B58A8FB7B12 /* Pods_FoxCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BFDA6DA3E19656158CB6AD /* Pods_FoxCast.framework */; };
+		807BAE572203515E000FA3D5 /* GridCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BAE552203515E000FA3D5 /* GridCollectionCell.swift */; };
+		807BAE582203515E000FA3D5 /* GridCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807BAE562203515E000FA3D5 /* GridCollectionCell.xib */; };
+		807BAE5C220351C1000FA3D5 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BAE5B220351C1000FA3D5 /* CollectionViewCell.swift */; };
+		807BAE5F220352A9000FA3D5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BAE5E220352A9000FA3D5 /* ProfileViewController.swift */; };
+		807BAE6122035350000FA3D5 /* UIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BAE6022035350000FA3D5 /* UIView+Helpers.swift */; };
+		807BAE642203E314000FA3D5 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BAE632203E314000FA3D5 /* ProfileViewModel.swift */; };
+		807BAE662203E36B000FA3D5 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BAE652203E36B000FA3D5 /* SectionModel.swift */; };
+		807BAE682203E82B000FA3D5 /* UICollectionView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BAE672203E82B000FA3D5 /* UICollectionView+Helper.swift */; };
+		807BAE6A22040FA2000FA3D5 /* UIImageView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BAE6922040FA2000FA3D5 /* UIImageView+Helper.swift */; };
 		809C3BB42202BEF600FF7D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BB32202BEF600FF7D07 /* AppDelegate.swift */; };
 		809C3BB62202BEF600FF7D07 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BB52202BEF600FF7D07 /* LoginViewController.swift */; };
 		809C3BB92202BEF600FF7D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809C3BB72202BEF600FF7D07 /* Main.storyboard */; };
@@ -17,12 +26,23 @@
 		809C3BCB2202C1FE00FF7D07 /* FirebaseRemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BCA2202C1FE00FF7D07 /* FirebaseRemoteConfig.swift */; };
 		809C3BCF2202F9E300FF7D07 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BCE2202F9E300FF7D07 /* Constants.swift */; };
 		809C3BD12202FDAC00FF7D07 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BD02202FDAC00FF7D07 /* LoadingViewController.swift */; };
+		809C3BD622034A9D00FF7D07 /* ListCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BD422034A9D00FF7D07 /* ListCollectionCell.swift */; };
+		809C3BD722034A9D00FF7D07 /* ListCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809C3BD522034A9D00FF7D07 /* ListCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		46BFDA6DA3E19656158CB6AD /* Pods_FoxCast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoxCast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F08D807382C706857D5E2AF /* Pods-FoxCast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoxCast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoxCast/Pods-FoxCast.debug.xcconfig"; sourceTree = "<group>"; };
 		7B7EED66034CCFC6FEE184FA /* Pods-FoxCast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoxCast.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoxCast/Pods-FoxCast.release.xcconfig"; sourceTree = "<group>"; };
+		807BAE552203515E000FA3D5 /* GridCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionCell.swift; sourceTree = "<group>"; };
+		807BAE562203515E000FA3D5 /* GridCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCollectionCell.xib; sourceTree = "<group>"; };
+		807BAE5B220351C1000FA3D5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		807BAE5E220352A9000FA3D5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		807BAE6022035350000FA3D5 /* UIView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helpers.swift"; sourceTree = "<group>"; };
+		807BAE632203E314000FA3D5 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		807BAE652203E36B000FA3D5 /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		807BAE672203E82B000FA3D5 /* UICollectionView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Helper.swift"; sourceTree = "<group>"; };
+		807BAE6922040FA2000FA3D5 /* UIImageView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Helper.swift"; sourceTree = "<group>"; };
 		809C3BB02202BEF600FF7D07 /* FoxCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809C3BB32202BEF600FF7D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		809C3BB52202BEF600FF7D07 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +54,8 @@
 		809C3BCA2202C1FE00FF7D07 /* FirebaseRemoteConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRemoteConfig.swift; sourceTree = "<group>"; };
 		809C3BCE2202F9E300FF7D07 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		809C3BD02202FDAC00FF7D07 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		809C3BD422034A9D00FF7D07 /* ListCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionCell.swift; sourceTree = "<group>"; };
+		809C3BD522034A9D00FF7D07 /* ListCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,24 @@
 				46BFDA6DA3E19656158CB6AD /* Pods_FoxCast.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		807BAE5D22035282000FA3D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				809C3BB52202BEF600FF7D07 /* LoginViewController.swift */,
+				809C3BD02202FDAC00FF7D07 /* LoadingViewController.swift */,
+				807BAE5E220352A9000FA3D5 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		807BAE622203E2EC000FA3D5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				807BAE632203E314000FA3D5 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		809C3BA72202BEF600FF7D07 = {
@@ -77,10 +117,12 @@
 		809C3BB22202BEF600FF7D07 /* FoxCast */ = {
 			isa = PBXGroup;
 			children = (
+				809C3BD922034E6C00FF7D07 /* Helpers */,
+				809C3BD322034A8200FF7D07 /* Views */,
+				807BAE622203E2EC000FA3D5 /* ViewModel */,
+				807BAE5D22035282000FA3D5 /* Controllers */,
 				809C3BB32202BEF600FF7D07 /* AppDelegate.swift */,
 				809C3BCE2202F9E300FF7D07 /* Constants.swift */,
-				809C3BB52202BEF600FF7D07 /* LoginViewController.swift */,
-				809C3BD02202FDAC00FF7D07 /* LoadingViewController.swift */,
 				809C3BB72202BEF600FF7D07 /* Main.storyboard */,
 				809C3BBA2202BEF800FF7D07 /* Assets.xcassets */,
 				809C3BBC2202BEF800FF7D07 /* LaunchScreen.storyboard */,
@@ -97,6 +139,29 @@
 				809C3BCA2202C1FE00FF7D07 /* FirebaseRemoteConfig.swift */,
 			);
 			path = Firebase;
+			sourceTree = "<group>";
+		};
+		809C3BD322034A8200FF7D07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				809C3BD422034A9D00FF7D07 /* ListCollectionCell.swift */,
+				809C3BD522034A9D00FF7D07 /* ListCollectionCell.xib */,
+				807BAE552203515E000FA3D5 /* GridCollectionCell.swift */,
+				807BAE562203515E000FA3D5 /* GridCollectionCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		809C3BD922034E6C00FF7D07 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				807BAE5B220351C1000FA3D5 /* CollectionViewCell.swift */,
+				807BAE6022035350000FA3D5 /* UIView+Helpers.swift */,
+				807BAE652203E36B000FA3D5 /* SectionModel.swift */,
+				807BAE672203E82B000FA3D5 /* UICollectionView+Helper.swift */,
+				807BAE6922040FA2000FA3D5 /* UIImageView+Helper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		95F7A47B29CB91995E8B257A /* Pods */ = {
@@ -169,6 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				809C3BBE2202BEF800FF7D07 /* LaunchScreen.storyboard in Resources */,
+				807BAE582203515E000FA3D5 /* GridCollectionCell.xib in Resources */,
+				809C3BD722034A9D00FF7D07 /* ListCollectionCell.xib in Resources */,
 				809C3BC62202C0D100FF7D07 /* GoogleService-Info.plist in Resources */,
 				809C3BBB2202BEF800FF7D07 /* Assets.xcassets in Resources */,
 				809C3BB92202BEF600FF7D07 /* Main.storyboard in Resources */,
@@ -233,11 +300,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807BAE6122035350000FA3D5 /* UIView+Helpers.swift in Sources */,
 				809C3BB62202BEF600FF7D07 /* LoginViewController.swift in Sources */,
+				809C3BD622034A9D00FF7D07 /* ListCollectionCell.swift in Sources */,
+				807BAE5C220351C1000FA3D5 /* CollectionViewCell.swift in Sources */,
 				809C3BB42202BEF600FF7D07 /* AppDelegate.swift in Sources */,
 				809C3BD12202FDAC00FF7D07 /* LoadingViewController.swift in Sources */,
+				807BAE572203515E000FA3D5 /* GridCollectionCell.swift in Sources */,
+				807BAE642203E314000FA3D5 /* ProfileViewModel.swift in Sources */,
+				807BAE6A22040FA2000FA3D5 /* UIImageView+Helper.swift in Sources */,
+				807BAE5F220352A9000FA3D5 /* ProfileViewController.swift in Sources */,
 				809C3BCB2202C1FE00FF7D07 /* FirebaseRemoteConfig.swift in Sources */,
 				809C3BCF2202F9E300FF7D07 /* Constants.swift in Sources */,
+				807BAE682203E82B000FA3D5 /* UICollectionView+Helper.swift in Sources */,
+				807BAE662203E36B000FA3D5 /* SectionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

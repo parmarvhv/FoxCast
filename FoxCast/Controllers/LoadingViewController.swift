@@ -24,6 +24,7 @@ class LoadingViewController: UIViewController {
     }
     
     private func startOnboarding() {
-        self.performSegue(withIdentifier: "onboardingVCSegueId", sender: nil)
+        //self.performSegue(withIdentifier: "onboardingVCSegueId", sender: nil)
+        self.performSegue(withIdentifier: "profileVCSegueId", sender: nil)
     }
 }

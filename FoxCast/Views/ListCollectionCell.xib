@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ListCollectionCell" id="gTV-IL-0wX" customClass="ListCollectionCell" customModule="FoxCast" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="342" height="165"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="342" height="165"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LO3-ys-tjh">
+                        <rect key="frame" x="0.0" y="0.0" width="342" height="165"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="II1-mo-ar7">
+                                <rect key="frame" x="8" y="8" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="B0H-at-Ejv"/>
+                                    <constraint firstAttribute="height" constant="40" id="luy-w6-ZEp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Q4-Ni-HhP">
+                                <rect key="frame" x="56" y="8" width="36" height="20"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
+                                <color key="textColor" red="0.25913292169570923" green="0.27431553602218628" blue="0.29412335157394409" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEO-02-djk">
+                                <rect key="frame" x="56" y="31.5" width="30.5" height="16.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="12"/>
+                                <color key="textColor" red="0.25913292169570923" green="0.27431553602218628" blue="0.29412335157394409" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IYk-ei-X6j">
+                                <rect key="frame" x="8" y="56" width="326" height="101"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="EEO-02-djk" firstAttribute="leading" secondItem="II1-mo-ar7" secondAttribute="trailing" constant="8" id="1ej-Of-N08"/>
+                            <constraint firstItem="EEO-02-djk" firstAttribute="bottom" secondItem="II1-mo-ar7" secondAttribute="bottom" id="VmX-uk-8Xd"/>
+                            <constraint firstAttribute="bottom" secondItem="IYk-ei-X6j" secondAttribute="bottom" constant="8" id="XF3-im-sac"/>
+                            <constraint firstItem="2Q4-Ni-HhP" firstAttribute="top" secondItem="II1-mo-ar7" secondAttribute="top" id="Zjt-Qv-qeN"/>
+                            <constraint firstItem="IYk-ei-X6j" firstAttribute="top" secondItem="II1-mo-ar7" secondAttribute="bottom" constant="8" id="cWC-Lz-3wd"/>
+                            <constraint firstItem="II1-mo-ar7" firstAttribute="top" secondItem="LO3-ys-tjh" secondAttribute="top" constant="8" id="che-Xr-aIs"/>
+                            <constraint firstAttribute="trailing" secondItem="IYk-ei-X6j" secondAttribute="trailing" constant="8" id="f3V-d8-Tc5"/>
+                            <constraint firstItem="II1-mo-ar7" firstAttribute="leading" secondItem="LO3-ys-tjh" secondAttribute="leading" constant="8" id="g3z-bu-gf9"/>
+                            <constraint firstItem="2Q4-Ni-HhP" firstAttribute="leading" secondItem="II1-mo-ar7" secondAttribute="trailing" constant="8" id="mfa-aq-6GB"/>
+                            <constraint firstItem="IYk-ei-X6j" firstAttribute="leading" secondItem="LO3-ys-tjh" secondAttribute="leading" constant="8" id="nC9-NU-acJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="LO3-ys-tjh" secondAttribute="trailing" id="dCh-dA-FB3"/>
+                <constraint firstItem="LO3-ys-tjh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ftb-Hr-Agu"/>
+                <constraint firstAttribute="bottom" secondItem="LO3-ys-tjh" secondAttribute="bottom" id="poa-7b-ey9"/>
+                <constraint firstItem="LO3-ys-tjh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zDZ-qp-edC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="feedImageView" destination="IYk-ei-X6j" id="rHW-e6-588"/>
+                <outlet property="nameLabel" destination="2Q4-Ni-HhP" id="TEH-eJ-dFH"/>
+                <outlet property="thumbnailView" destination="II1-mo-ar7" id="7Rz-0U-jxP"/>
+                <outlet property="titleLabel" destination="EEO-02-djk" id="x3B-v4-cYj"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

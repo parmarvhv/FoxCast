@@ -12,6 +12,7 @@ import FirebaseRemoteConfig
 
 enum FirebaseRemoteKey: String {
     case loginOption
+    case gridView
 }
 
 enum LoginOption: String {
@@ -33,6 +34,9 @@ class FirebaseRemoteConfig {
         }
         self.loadDefaultValues()
         self.fetchRemoteValues()
+        
+        let idToken = InstanceID.instanceID().token()
+        print ("Your instance ID token is \(idToken ?? "n/a")")
     }
     
     private init() {}
