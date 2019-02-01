@@ -25,18 +25,10 @@
                                     <constraint firstAttribute="height" constant="100" id="cod-Bl-4Ju"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fox Cast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZS0-01-jQT">
-                                <rect key="frame" x="156" y="393.5" width="63" height="22"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.14951097965240479" green="0.14651888608932495" blue="0.31375411152839661" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="ZS0-01-jQT" firstAttribute="top" secondItem="yAS-xh-Bhn" secondAttribute="bottom" constant="10" id="DWX-Mg-iWb"/>
                             <constraint firstItem="yAS-xh-Bhn" firstAttribute="centerX" secondItem="jpz-si-Pgc" secondAttribute="centerX" id="Xwc-KM-dVb"/>
-                            <constraint firstItem="ZS0-01-jQT" firstAttribute="centerX" secondItem="yAS-xh-Bhn" secondAttribute="centerX" id="eeE-NG-mqc"/>
                             <constraint firstItem="yAS-xh-Bhn" firstAttribute="centerY" secondItem="jpz-si-Pgc" secondAttribute="centerY" id="syr-aU-NSE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FSI-As-C9I"/>

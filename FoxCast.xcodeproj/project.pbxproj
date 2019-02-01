@@ -22,6 +22,7 @@
 		807BAE8022041949000FA3D5 /* bran_feed.gif in Resources */ = {isa = PBXBuildFile; fileRef = 807BAE7C22041949000FA3D5 /* bran_feed.gif */; };
 		807BAE8122041949000FA3D5 /* daenerys_feed.gif in Resources */ = {isa = PBXBuildFile; fileRef = 807BAE7D22041949000FA3D5 /* daenerys_feed.gif */; };
 		807BAE8322041961000FA3D5 /* arya_littlefinger.gif in Resources */ = {isa = PBXBuildFile; fileRef = 807BAE8222041961000FA3D5 /* arya_littlefinger.gif */; };
+		807BAE8522041B95000FA3D5 /* night_feed.gif in Resources */ = {isa = PBXBuildFile; fileRef = 807BAE8422041B95000FA3D5 /* night_feed.gif */; };
 		809C3BB42202BEF600FF7D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BB32202BEF600FF7D07 /* AppDelegate.swift */; };
 		809C3BB62202BEF600FF7D07 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3BB52202BEF600FF7D07 /* LoginViewController.swift */; };
 		809C3BB92202BEF600FF7D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809C3BB72202BEF600FF7D07 /* Main.storyboard */; };
@@ -53,6 +54,7 @@
 		807BAE7C22041949000FA3D5 /* bran_feed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bran_feed.gif; sourceTree = "<group>"; };
 		807BAE7D22041949000FA3D5 /* daenerys_feed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = daenerys_feed.gif; sourceTree = "<group>"; };
 		807BAE8222041961000FA3D5 /* arya_littlefinger.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = arya_littlefinger.gif; sourceTree = "<group>"; };
+		807BAE8422041B95000FA3D5 /* night_feed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = night_feed.gif; sourceTree = "<group>"; };
 		809C3BB02202BEF600FF7D07 /* FoxCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809C3BB32202BEF600FF7D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		809C3BB52202BEF600FF7D07 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		807BAE6B220411EF000FA3D5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				807BAE8422041B95000FA3D5 /* night_feed.gif */,
 				807BAE8222041961000FA3D5 /* arya_littlefinger.gif */,
 				807BAE7C22041949000FA3D5 /* bran_feed.gif */,
 				807BAE7D22041949000FA3D5 /* daenerys_feed.gif */,
@@ -267,6 +270,7 @@
 				809C3BBE2202BEF800FF7D07 /* LaunchScreen.storyboard in Resources */,
 				807BAE7E22041949000FA3D5 /* jon_feed.gif in Resources */,
 				807BAE8022041949000FA3D5 /* bran_feed.gif in Resources */,
+				807BAE8522041B95000FA3D5 /* night_feed.gif in Resources */,
 				807BAE582203515E000FA3D5 /* GridCollectionCell.xib in Resources */,
 				807BAE7F22041949000FA3D5 /* tyrion_feed.gif in Resources */,
 				809C3BD722034A9D00FF7D07 /* ListCollectionCell.xib in Resources */,

@@ -25,17 +25,9 @@
                                     <constraint firstAttribute="height" constant="100" id="SD7-8x-8xQ"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fox Cast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mas-i2-lBW">
-                                <rect key="frame" x="156" y="393.5" width="63" height="22"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.14951097969999999" green="0.1465188861" blue="0.31375411149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="mas-i2-lBW" firstAttribute="centerX" secondItem="7RT-Bj-X5J" secondAttribute="centerX" id="XDP-d8-gaX"/>
-                            <constraint firstItem="mas-i2-lBW" firstAttribute="top" secondItem="7RT-Bj-X5J" secondAttribute="bottom" constant="10" id="XVO-Lp-gPS"/>
                             <constraint firstItem="7RT-Bj-X5J" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Yn7-3D-R1R"/>
                             <constraint firstItem="7RT-Bj-X5J" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="foJ-Ws-FLg"/>
                         </constraints>

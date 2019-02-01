@@ -41,20 +41,18 @@ class ProfileViewModel {
     }
     
     var feeds = [
+        Feed(name: "Night King", title: "First White Walker",
+             feedImage: "night_feed", profileImage: "night_king"),
         Feed(name: "Jon Snow", title: "Stark now targaryen",
              feedImage: "jon_feed", profileImage: "jon_snow"),
+        Feed(name: "Daenerys Targaryen", title: "Mother of Dragons",
+             feedImage: "daenerys_feed", profileImage: "daenerys"),
         Feed(name: "Arya Stark", title: "The no one",
              feedImage: "arya_littlefinger", profileImage: "arya_stark"),
-        Feed(name: "Bran Stark", title: "Three eyed Raven",
-             feedImage: "bran_feed", profileImage: "bran_stark"),
-        Feed(name: "Daenerys Targaryen", title: "Mother of Dragons",
-             feedImage: "daenerys_feed", profileImage: "bran_stark"),
-        Feed(name: "Tyrion Lannister", title: "Mother of Dragons",
-             feedImage: "tyrion_feed", profileImage: "bran_stark"),
         Feed(name: "Tyrion Lannister", title: "The Imp",
-             feedImage: "tyrion_feed", profileImage: "bran_stark"),
-        Feed(name: "Night King", title: "First White Walker",
-             feedImage: "night_feed", profileImage: "bran_stark")
+             feedImage: "tyrion_feed", profileImage: "tyrion"),
+        Feed(name: "Bran Stark", title: "Three eyed Raven",
+             feedImage: "bran_feed", profileImage: "bran_stark")
     ]
     
 }
