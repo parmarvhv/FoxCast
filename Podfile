@@ -7,6 +7,7 @@ target 'FoxCast' do
 
   # Pods for FoxCast
   pod 'Firebase/Core'
-  pod 'Firebase/RemoteConfig'  
-
+  pod 'Firebase/RemoteConfig'
+  pod 'Kingfisher'
+  
 end

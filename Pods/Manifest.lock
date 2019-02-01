@@ -57,6 +57,7 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (5.3.6):
     - GoogleUtilities/Logger
+  - Kingfisher (5.0.1)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
@@ -67,6 +68,7 @@ PODS:
 DEPENDENCIES:
   - Firebase/Core
   - Firebase/RemoteConfig
+  - Kingfisher
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -78,6 +80,7 @@ SPEC REPOS:
     - FirebaseRemoteConfig
     - GoogleAppMeasurement
     - GoogleUtilities
+    - Kingfisher
     - nanopb
     - Protobuf
 
@@ -90,9 +93,10 @@ SPEC CHECKSUMS:
   FirebaseRemoteConfig: 7e11c65f0769c09bff6947997c209515058c5318
   GoogleAppMeasurement: 98b71f5e04142793729a5ef23e5b96651ff4b70f
   GoogleUtilities: 95996bea7c7d9b8fb811b7507669a4a8762f80c7
+  Kingfisher: 4f771421b9208185217550528a06fd48756cb7c2
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
 
-PODFILE CHECKSUM: 39a0c036135695d06c439f5952bcf1eb1d1de8dc
+PODFILE CHECKSUM: 7a9f4893a6f3ecf8991af92c2d2808f41f7f7d0f
 
 COCOAPODS: 1.5.3
